@@ -26,7 +26,7 @@ def ocr_detection_google(imgpath):
     start = time.clock()
     url = 'https://vision.googleapis.com/v1/images:annotate'
     # api_key = 'AIzaSyDUc4iOUASJQYkVwSomIArTKhE2C6bHK8U'             # *** Replace with your own Key ***
-    api_key = 'AIzaSyAeSaaOE-upsRshfOEkkMIUcAiBzDSVOAo'
+    api_key = 'AIzaSyDzsPjqxj4vSWd7wqpYrImgBBIZwcrOvf4'
     imgdata = Google_OCR_makeImageData(imgpath)
     response = requests.post(url,
                              data=imgdata,
